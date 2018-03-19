@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #00802b;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 65px;
+    margin-bottom: 10px;
+    color: black;
+    background: rgba(0, 0, 0, .35);
+    padding: 0 3%;
+    border-radius: 40px;
+    margin-top: 1%;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+canvas {
+    border: 3px solid #fff;
+    cursor: none;
+}
+
+.speedUp {
+    font-size: 40px;
+    opacity: 1;
+    -webkit-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+    display: none;
+    margin-top: 1%;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 40px;
+    padding: 1%;
+
+}
+
+.message {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background-color: #b30000;
+    border: 3px solid #800000;
+    border-radius: 75px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.game {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 45px;
+    margin: 2% 0;
+}
+
+.result {
+    font-size: 30px;
+    margin: 4% 0 8%;
+    color: white;
+}
+
+.again {
+    font-size: 20px;
+    padding: 1%;
+    background: #00802b;
+    border: 2px solid #004d1a;
+    border-radius: 10px;
+}
+
+.start-button {
+    font-size: 25px;
+    border-radius: 5px;
+    margin-top: 2%;
+    padding: 0.5%;
+    background-color: #e60000;
+    border: 2px solid #b30000;
+    color: white;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.hideAll {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: #00802b;
+}

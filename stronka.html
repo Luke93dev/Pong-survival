@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Pong survival</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Pong survival</h1>
+    <h3>Spróbuj odbijać piłeczkę jak najdłużej, w miarę upływu czasu tempo gry wzrasta!</h3>
+    <canvas width="800" height="400"></canvas>
+    <div id="speedUp" class="speedUp"></div>
+    <div id="message" class="message">
+        <h3 class="game"> GAME OVER!</h3>
+        <p class="result">Twój wynik to <span id="yourtime"></span> sekundy</p>
+        <button id="again-button" class="again" onclick="playAgain()">Zagraj jeszcze raz</button>
+    </div>
+    <button id="start-button" class="start-button">Rozpocznij grę</button>
+    <div id="hideAll" class="hideAll"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
